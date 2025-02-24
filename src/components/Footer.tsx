@@ -1,6 +1,4 @@
 import Link from 'next/link';
-import { AUTHOR_URL } from '@constants/index';
-import BuyMeaCoffee from '@components/BuyMeaCoffee';
 import styles from '@styles/Footer.module.css';
 
 /**
@@ -10,7 +8,6 @@ import styles from '@styles/Footer.module.css';
 function Footer(): JSX.Element {
   return (
     <>
-      <BuyMeaCoffee />
       <div className={styles.container}>
         <footer className={styles.footer}>
           <div className={styles.box}>

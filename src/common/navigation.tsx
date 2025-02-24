@@ -1,5 +1,4 @@
 import { BreedSvg, FactSvg, HomeSvg } from '@svg/index';
-import { DOCS_URL, GITHUB_URL } from '@constants/index';
 
 const bottomNavigation: cat.BottomNavigation = [
   {
